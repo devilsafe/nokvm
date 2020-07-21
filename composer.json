@@ -1,0 +1,19 @@
+{
+    "name": "lambq/nokvm",
+    "description": "a nokvm sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lambq",
+            "email": "415113157@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lambq\\Nokvm\\": "src"
+        }
+    }
+}
